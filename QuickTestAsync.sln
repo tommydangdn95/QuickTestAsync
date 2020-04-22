@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorHandling", "ErrorHandling\ErrorHandling.csproj", "{44F0DAE6-366E-4D7C-AFF1-06F8286DF061}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ErrorHandling", "ErrorHandling\ErrorHandling.csproj", "{44F0DAE6-366E-4D7C-AFF1-06F8286DF061}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IgnoreError", "IgnoreError\IgnoreError.csproj", "{3962332C-2B94-417F-B450-AD0DA91B9899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancelTokenSample", "CancelTokenSample\CancelTokenSample.csproj", "{DF69A627-890C-4B0E-8DC7-D57AF592DA7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{44F0DAE6-366E-4D7C-AFF1-06F8286DF061}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44F0DAE6-366E-4D7C-AFF1-06F8286DF061}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44F0DAE6-366E-4D7C-AFF1-06F8286DF061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3962332C-2B94-417F-B450-AD0DA91B9899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3962332C-2B94-417F-B450-AD0DA91B9899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3962332C-2B94-417F-B450-AD0DA91B9899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3962332C-2B94-417F-B450-AD0DA91B9899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF69A627-890C-4B0E-8DC7-D57AF592DA7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF69A627-890C-4B0E-8DC7-D57AF592DA7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF69A627-890C-4B0E-8DC7-D57AF592DA7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF69A627-890C-4B0E-8DC7-D57AF592DA7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
